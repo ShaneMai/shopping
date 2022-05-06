@@ -63,68 +63,6 @@
 </div>
 <!-- //footer -->
 <!-- login -->
-<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content modal-info">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body modal-spa">
-                <div class="login-grids">
-                    <div class="login">
-                        <div class="login-bottom">
-                            <h3 style="color: #285654">Đăng ký miễn phí</h3>
-                            <form>
-                                <div class="sign-up">
-                                    <h4>Email :</h4>
-                                    <input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="">
-                                </div>
-                                <div class="sign-up">
-                                    <h4>Password :</h4>
-                                    <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-
-                                </div>
-                                <div class="sign-up">
-                                    <h4>Re-type Password :</h4>
-                                    <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-
-                                </div>
-                                <div class="sign-up">
-                                    <input type="submit" value="Đăng ký ngay" class="btn" style="background: #285654">
-                                </div>
-
-                            </form>
-                        </div>
-                        <div class="login-right">
-                            <h3 style="color: #285654">Đăng nhập</h3>
-                            <form>
-                                <div class="sign-in">
-                                    <h4>Email :</h4>
-                                    <input type="text" value="Type here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Type here';}" required="">
-                                </div>
-                                <div class="sign-in">
-                                    <h4>Password :</h4>
-                                    <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">
-                                    <a href="#">Forgot password?</a>
-                                </div>
-                                <div class="single-bottom">
-                                    <input type="checkbox"  id="brand" value="">
-                                    <label for="brand"><span></span>Remember Me.</label>
-                                </div>
-                                <div class="sign-in"  >
-                                    <input type="submit" value="Đăng nhập" class="btn"style="background: #285654" >
-                                </div>
-                            </form>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <p>Bằng cách đăng nhập, bạn đồng ý với các Điều khoản và Chính sách Bảo mật của chúng tôi</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- //login -->
 <!--<script src="public/layout/js/jquery.validate.min.js"></script>-->
 </body>
