@@ -27,7 +27,8 @@ $(document).ready(function() {
             dataType: 'json',
             success: function(data){
                 swal({
-                    title: "Thêm sản phẩm thành công!",
+                    title: "Thêm sản phẩm thành công!" +
+                        "Vui lòng kiểm tra giỏ hàng của bạn",
                     text: "Số lượng đặt: " + data['sl'] + ".\nTổng tiền: " + formatCurrency(data['st']) + " VNĐ!",
                     icon: "success",
                 });

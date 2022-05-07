@@ -14,7 +14,7 @@ class C_gio_hang
             {
                 $gio_hang_mon_an[$key]=$value;
             }
-            if($gio_hang_mon_an) //Nếu có chọn món
+            if($gio_hang_mon_an)
             {
                 $_SESSION['gio_hang_mon_an'] =$gio_hang_mon_an;
                 $ds_san_pham =   $this->lay_thong_tin_san_pham($gio_hang_mon_an);
