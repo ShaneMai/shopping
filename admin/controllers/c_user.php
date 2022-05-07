@@ -82,7 +82,7 @@ class c_user
             $this->save_login($username, $password);
             if (isset($_SESSION['user_admin'])) {
                 $title = "Quản lý Cửa Hàng";
-                header("location:home.php");
+                header("location:index.php");
             } else {
                 $_SESSION['error'] = "Thông tin đăng nhập không hợp lệ";
                 header("location:login.php");

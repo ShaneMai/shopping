@@ -6,7 +6,7 @@
             <!-- ============================================================== -->
             <!-- Logo -->
             <!-- ============================================================== -->
-            <a class="navbar-brand" href="home.php">
+            <a class="navbar-brand" href="index.php">
                 <!-- Logo icon -->
                 <!--End Logo icon -->
                 <!-- Logo text -->
