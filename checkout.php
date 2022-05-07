@@ -8,7 +8,7 @@ if(isset($_POST["btnCapnhat"]))
     //Xóa mặt hàng trong giỏ hàng
 
     /** @var TYPE_NAME $value */
-    foreach(@$giohang as $key=> $value)
+    foreach($giohang as $key=> $value)
     {
         if(isset($_POST[$key]))
         {
