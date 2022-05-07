@@ -6,11 +6,10 @@
             <div class="col-sm-8">
                 <div class="form-row">
                     <div class="col">
-                        <input style="width: 60% !important; float:left;" type="text" id="searchValue" class="form-control" placeholder="Tìm kiếm sản phẩm">
-                        <input type="submit" id="search" class="btn" value="Tìm kiếm" style="background: #285654;color: #e6e6e6">
+                        <input style="width: 60% !important; height: 36px; float:left;" type="text" id="searchValue" class="form-control" placeholder="Tìm kiếm sản phẩm">
                     </div>
                     <div class="col">
-
+                        <input type="submit" id="search" value="Tìm kiếm" style="background: #285654;color: #e6e6e6">
                     </div>
                     <div class="clearfix"></div>
                 </div>
