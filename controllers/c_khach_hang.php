@@ -22,7 +22,7 @@ class C_khach_hang
 
             $ghi_chu=$_POST['ghi_chu'];
             $m_khach_hang=new M_khach_hang();
-            $ma_khach_hang= $m_khach_hang->themKhachHang($ten_khach_hang, $phai,$ngay_sinh, $dia_chi, $dien_thoai,$email, $ghi_chu);
+            $ma_khach_hang= $m_khach_hang->themKhachHang($ten_khach_hang, $gioi_tinh,$ngay_sinh, $dia_chi, $dien_thoai,$email, $ghi_chu);
        
             if($ma_khach_hang>0)
             {
