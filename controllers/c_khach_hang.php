@@ -12,7 +12,7 @@ class C_khach_hang
         if(isset($_POST['submit']))
         {
             $ten_khach_hang=$_POST['ten_khach_hang'];
-            $phai =$_POST['phai'];
+            $gioi_tinh =$_POST['gioi_tinh'];
             $ngay = date_create($_POST["ngay_sinh"]);
             $ngay_sinh = date_format($ngay, "Y-m-d");
 
